@@ -1,0 +1,10 @@
+Given the below data structure (time series of 600 points in 1 minute intervals), write code in javascript  to do the following:
+
+Conflate data to 1 hour intervals, calculating Open, Close, High, Low, and (total) Volume.
+
+Calculate % change for each new interval (from Open to Close)
+Create a visualization (using any DOM methods  you want (e.g. plain HTML, SVG or Canvas) that shows each hourly interval:
+Ordered by percent change, from positive to negative
+Color coded green for positive and red for negative.  If you would like - you can use gradations to indicate relative intensity of change.
+
+Visualization can be anything you like, bar chart or heatmap for example.
